@@ -43,3 +43,12 @@ public class StackonLIS{ //stack used to store the LIS
 			
 				stack.push(numbers[i]);
 			}
+				
+		}
+		// Size of the stack represents length of the LIS 	
+		return stack.size();
+	}
+}
+
+	
+
